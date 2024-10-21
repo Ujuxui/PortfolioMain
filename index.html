@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/dbdc6c56f0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-gradient-to-r from-blue-500 to-orange-100">
+    <!-- Header/Nav Section -->
+    <header
+      class="flex w-full py-4 z-0 fixed bg-gradient-to-r from-blue-900 to-violet-300 z-50"
+    >
+      <div class="logo">
+        <img
+          src="https://ik.imagekit.io/jkay012024/Screenshot%202024-10-19%20192205.png?updatedAt=1729345959242"
+          class="w-30 h-10 ml-8"
+          alt="MyLogo"
+        />
+      </div>
+      <nav class="nav-items flex justify-center items-center">
+        <ul class="flex gap-10 justify-center items-center ml-80 text-white">
+          <li class="menu-btn"><a href="#home">Home</a></li>
+          <li class="menu-btn"><a href="#about">About</a></li>
+          <li class="menu-btn"><a href="#skills">Skills</a></li>
+          <li class="menu-btn"><a href="#certifications">Certifications</a></li>
+          <li class="menu-btn"><a href="#projects">Projects</a></li>
+          <li class="menu-btn"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="toggle-container">
+        <input type="checkbox" id="toggle-mode" class="toggle-input" />
+        <label for="toggle-mode" class="toggle-label">
+          <i class="fa-solid fa-sun sun-icon"></i>
+          <i class="fa-regular fa-moon moon-icon"></i>
+        </label>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="flex justify-center items-center">
+      <div class="hero-section">
+        <h1 class="text-left text-2xl font-semibold text-gray-300 mt-72 mb-8">
+          Hi, I am Ujwala.
+        </h1>
+        <p class="text-6xl text-white mb-4">
+          A Web Developer <br />with a passion for Design.
+        </p>
+        <button
+          class="download-btn w-52 p-4 text-white bg-gradient-to-r from-blue-900 to-violet-300 border rounded-full mt-8 shadow-xl"
+        >
+          <a href="https://img.freepik.com/free-vector/minimalist-cv-template-with-photo_23-2148908155.jpg?t=st=1729428049~exp=1729431649~hmac=220c984d434045fe7aad2ddd475f6255c26f6deb51e15aa1de3b9e30febff7cb&w=740" target="_blank"
+          class="download-btn">Download Resume</a>
+        </button>
+      </div>
+      <div>
+        <img
+          src="https://ik.imagekit.io/jkay012024/WhatsApp%20Image%202024-08-22%20at%2012.02.07%20PM.jpeg?updatedAt=1724308458174"
+          alt="Profile Picture"
+          class="profile-pic ml-20 mt-44 h-92 w-80 rounded-full"
+        />
+      </div>
+
+      <div class="floating-icons-container">
+        <a href="https://github.com/ujwala" target="_blank" class="social-icon">
+          <img
+            src="https://ik.imagekit.io/jkay012024/github-sign.png?updatedAt=1728911060314"
+            alt="GitHub"
+            class="w-10 h-10"
+          />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ujwall"
+          target="_blank"
+          class="social-icon"
+        >
+          <img
+            src="https://ik.imagekit.io/jkay012024/linkedin.png?updatedAt=1728910871309"
+            alt="LinkedIn"
+            class="w-10 h-10"
+          />
+        </a>
+        <a
+          href="mailto:ujwala@instagram.com"
+          target="_blank"
+          class="social-icon"
+        >
+          <img
+            src="https://ik.imagekit.io/jkay012024/instagram_2111463.png?updatedAt=1729357823280"
+            alt="Instagram"
+            class="w-10 h-10"
+          />
+        </a>
+        <a
+          href="mailto:ujwala@facebook.com"
+          target="_blank"
+          class="social-icon"
+        >
+          <img
+            src="https://ik.imagekit.io/jkay012024/facebook_2504903.png?updatedAt=1729340866574"
+            alt="Facebook"
+            class="w-10 h-10"
+          />
+        </a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section
+      id="about"
+      class="about-section flex flex-col items-center justify-center mt-52 min-h-screen bg-gradient-to-r from-blue-500 to-violet-300 py-16 z-10"
+    >
+      <h2 class="section-heading text-3xl text-white mb-16 text-center">
+        About Me
+      </h2>
+      <p class="text-lg text-white text-center mb-8 leading-8 w-3/4">
+        "I am passionate about UI/UX design and Web Development, with a strong
+        interest in creating engaging and user-friendly digital experiences.
+        While I am still studying coding and building my full-stack development
+        skills, I am eager to apply my growing knowledge in real-world projects.
+        I am a fast learner, adaptable, and enthusiastic about collaborating
+        within a team to deliver impactful results."
+      </p>
+      <img
+        src="https://ik.imagekit.io/jkay012024/WhatsApp%20Image%202024-08-22%20at%2012.02.07%20PM.jpeg?updatedAt=1724308458174"
+        alt="Profile Picture"
+        class="styled-profile-pic"
+      />
+      <button
+        class="read-more w-44 p-4 text-white transparent border rounded-full mt-8 hover:shadow-xl hover:scale-110 transform transition duration-300"
+      >
+        Read More
+      </button>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2 class="section-heading">My Skills</h2>
+        <p class="skills-description">
+          I am a fast-paced learner, and so after my career transition I have
+          embarked on this exciting code-learning journey.<br />
+          Here are some of the skills I have acquired over time:
+        </p>
+        <div class="skill">
+          <p class="skill-name">HTML</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <p class="skill-name">CSS</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <p class="skill-name">JavaScript</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 65%"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <p class="skill-name">Figma</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certificates-section">
+      <h2 class="section-heading">Certifications</h2>
+      <div class="certificates-container">
+        <div class="certificate-card">
+          <img
+            src="https://ik.imagekit.io/jkay012024/Screenshot%202024-10-20%20132902.png?updatedAt=1729411493696"
+            alt="Certificate 1"
+            class="certificate-img"
+          />
+          <div class="certificate-overlay">
+            <div class="certificate-description">
+              <h1>Certification in Web Development</h1>
+              <p class="text-sm mt-2">
+                This was provided on completion of<br />
+                Web Development course in 2023.
+              </p>
+              <a
+                href="https://ik.imagekit.io/jkay012024/Screenshot%202024-10-20%20132902.png?updatedAt=1729411493696"
+                class="view-btn"
+                target="_blank"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="certificate-card">
+          <img
+            src="https://ik.imagekit.io/jkay012024/Screenshot%202024-10-20%20133420.png?updatedAt=1729411493677"
+            alt="Certificate 2"
+            class="certificate-img"
+          />
+          <div class="certificate-overlay">
+            <div class="certificate-description">
+              <h1>JavaScript Programming Certification</h1>
+              <p class="text-sm mt-2">
+                This was secured for my participation in Tech Marathon<br />
+                conducted by Digital Hackathan in Jan 2024.
+              </p>
+              <a
+                href="https://ik.imagekit.io/jkay012024/Screenshot%202024-10-20%20133420.png?updatedAt=1729411493677"
+                class="view-btn"
+                target="_blank"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="certificate-card">
+          <img
+            src="https://ik.imagekit.io/jkay012024/Screenshot%202024-10-20%20132902.png?updatedAt=1729411493696"
+            alt="Certificate 3"
+            class="certificate-img"
+          />
+          <div class="certificate-overlay">
+            <div class="certificate-description">
+              <h1>UI/UX Design Certificate</h1>
+              <p class="text-sm mt-2">
+                This was provided on completion<br />
+                of UI/UX Design course in 2022.
+              </p>
+              <a
+                href="https://ik.imagekit.io/jkay012024/Screenshot%202024-10-20%20132902.png?updatedAt=1729411493696"
+                class="view-btn"
+                target="_blank"
+                >View Certificate</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="projects" class="mb-12">
+      <h2 class="section-heading">My Projects</h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <img
+            src="https://img.freepik.com/free-vector/flat-design-creative-portfolio-templates_23-2149202876.jpg?t=st=1729420253~exp=1729423853~hmac=a64e7314a0a6bb87ae2acdfc473fabccc23795b9fe59907b8d8ea714bfdb30cb&w=996"
+            alt="project 1"
+            class="project-img"
+          />
+          <div class="project-overlay">
+            <div class="project-description">
+              <h3>Portfolio</h3>
+              <p>HTML</p>
+              <a
+                href="https://github.com/Ujuxui/Portfolio"
+                target="_blank"
+                class="view-project-btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="https://img.freepik.com/free-vector/appointment-booking-with-smartphone-man_23-2148575070.jpg?t=st=1729418218~exp=1729421818~hmac=2d19d74b4e6e393aa99c27e998c5b25749efcc28a2abe5b9dcb0149d9464edfb&w=740"
+            alt="Project 2"
+            class="project-img"
+          />
+          <div class="project-overlay">
+            <div class="project-description">
+              <h3>To Do List App</h3>
+              <p>HTML, CSS & JS</p>
+              <a
+                href="link-to-project2"
+                target="_blank"
+                class="view-project-btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="https://img.freepik.com/free-photo/red-ribbon-bow-aalaw-gems-streamers-sprinkles-with-greeting-card-pink-box-yellow-backdrop_23-2148190444.jpg?t=st=1729419803~exp=1729423403~hmac=2ee37d7676b9a068d01cb959303401e4cba69c62b60b9c801ecec9db43876c11&w=996"
+            alt="Project 3"
+            class="project-img"
+          />
+          <div class="project-overlay">
+            <div class="project-description">
+              <h3>Personalized Birthday Gift Site</h3>
+              <p>HTML + CSS</p>
+              <a
+                href="https://github.com/Ujuxui/birthdaygiftsite"
+                target="_blank"
+                class="view-project-btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="https://img.freepik.com/free-vector/cartoon-tiny-people-getting-giving-feedback-online-landing-page-flat-style_74855-19174.jpg?t=st=1729420471~exp=1729424071~hmac=a4173ff6fef5ecd6ad481d5354379153556ca8000dbd17af5967d91141bb7b5f&w=1060"
+            alt="Project 4"
+            class="project-img"
+          />
+          <div class="project-overlay">
+            <div class="project-description">
+              <h3>Feedback Landing Page</h3>
+              <p>Javascript</p>
+              <a
+                href="https://github.com/Ujuxui/my-project"
+                target="_blank"
+                class="view-project-btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="https://img.freepik.com/free-photo/working-with-device-lifestyle_23-2151848739.jpg?t=st=1729419620~exp=1729423220~hmac=9c775043d577b38693ffdff4e6cde4e5191b924d6c42614601a1c03e9af624d7&w=1060"
+            alt="Project 5"
+            class="project-img"
+          />
+          <div class="project-overlay">
+            <div class="project-description">
+              <h3>Airbnb - Clone Website</h3>
+              <p>React JS</p>
+              <a
+                href="https://github.com/Ujuxui/cloneproject1"
+                target="_blank"
+                class="view-project-btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img
+            src="https://img.freepik.com/free-vector/queue-isometric-concept-people-standing-line-front-metal-detector-frame-airport-vector-illustration_1284-78097.jpg?t=st=1729420637~exp=1729424237~hmac=3517fdd19426f1fd3c0b44e46b6dd675f259887fbd04bb4cd2914119708fcd71&w=996"
+            alt="Project 6"
+            class="project-img"
+          />
+          <div class="project-overlay">
+            <div class="project-description">
+              <h3>Passenger Count App</h3>
+              <p>CSS</p>
+              <a
+                href="https://github.com/Ujuxui/passengercounterapp"
+                target="_blank"
+                class="view-project-btn"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr>
+
+    <!-- Contact Section -->
+    <section>
+      <h2 class="section-heading mt-16 mb-12">Contact Me</h2>
+      <div class="flex justify-center items-center mb-8">
+        <div
+          id="contact"
+          class="bg-gradient-to-r from-blue-900 to-violet-300 text-white"
+        >
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <input
+              type="submit"
+              value="Submit"
+              class="submit w-40 p-2 text-white transparent border rounded-full mt-8 hover:shadow-xl hover:scale-110 transform transition duration-300"
+            />
+          </form>
+        </div>
+        <div class="contact-column">
+          <h1 class="font-semibold text-2xl mb-2 text-blue-800">
+            Let's talk how I can help you!
+          </h1>
+          <p class="my-4 mb-4">
+            If you like my work and want to avail my services<br />
+            then drop me a message using the contact form. <br /><br />
+            Or get in touch using my email,<br />
+            skype or my contact number.
+          </p>
+          <span class="font-semibold text-2xl text-blue-800">See you!</span>
+          <h1 class="mt-4 mb-4">
+            <span class="font-medium text-blue-800">Email:</span>
+            ujw.ala101@example.com
+          </h1>
+          <h1 class="mb-4">
+            <span class="font-medium text-blue-800">Skype:</span>
+            ujw.ala101@skype.com
+          </h1>
+          <h1>
+            <span class="font-medium text-blue-800">Phone:</span>
+            +91-108-111-0011
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <p>&copy; 2024 UJUIUX Portfolio. All rights reserved.</p>
+      <div class="contact-icons">
+        <a href="+91-108-111-0011" class="phone-btn"
+          ><i class="fa-solid fa-phone"></i
+        ></a>
+        <a href="ujw.ala101@example.com" class="mail-btn"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
